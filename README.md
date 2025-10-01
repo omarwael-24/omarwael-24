@@ -42,5 +42,4 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/>
 </p>
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/your-username?theme=dark&font=Karma&ext=heatmap)
 
