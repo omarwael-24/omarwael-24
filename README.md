@@ -43,7 +43,6 @@
 </p>
 
 ## 🧩 Problem Solving Progress
+<!-- LEETCODE-STATS -->
 
-### LeetCode
-![LeetCode Stats](https://leetcard.jacoblin.cool/omar_username?theme=dark&ext=heatmap)
 
