@@ -1,3 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Welcome%20To%20My%20Profile!%20🚀&fontAlign=50&fontAlignY=40&color=gradient&animation=twinkling"/>
+  <img src="https://img.shields.io/badge/Machine%20Learning-Engineer-blue?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Data-Science-orange?style=for-the-badge&logo=jupyter&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI-Researcher-green?style=for-the-badge&logo=tensorflow&logoColor=white"/>
 </p>
