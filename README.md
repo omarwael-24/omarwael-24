@@ -9,7 +9,6 @@
 📚 **Currently exploring:**  
 - Deep Learning architectures  
 - Data Science workflows  
-- Embedded AI for edge devices  
 
 🎯 **My goals:**  
 - Build practical AI-powered products that make an impact  
