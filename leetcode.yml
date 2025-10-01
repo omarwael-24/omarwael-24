@@ -15,5 +15,5 @@ jobs:
       - name: Fetch LeetCode Stats
         uses: yihong0618/leetcode-action@main
         with:
-          LEETCODE_USERNAME: "omarelmaru   
+          LEETCODE_USERNAME: "omarelmaru"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
