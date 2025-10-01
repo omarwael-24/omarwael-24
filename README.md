@@ -42,7 +42,4 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/>
 </p>
 
-## 🧩 Problem Solving Progress
-<!-- LEETCODE-STATS -->
-
 
