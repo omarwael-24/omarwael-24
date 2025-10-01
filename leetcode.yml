@@ -1,0 +1,19 @@
+name: Update LeetCode Stats
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # يحدث كل 12 ساعة
+  workflow_dispatch:          # يسمحلك تشغله مانيوال من Actions
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Fetch LeetCode Stats
+        uses: yihong0618/leetcode-action@main
+        with:
+          LEETCODE_USERNAME: "omarelmaru   
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
