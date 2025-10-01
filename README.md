@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Welcome%20To%20My%20Profile!%20🚀&fontAlign=50&fontAlignY=40&color=gradient&animation=twinkling"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Welcome%20To%20My%20Profile!%20&fontAlign=50&fontAlignY=40&color=gradient&animation=twinkling"/>
 </p>
 
 ## 👋 Hi, I’m Omar  
@@ -42,4 +42,8 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/>
 </p>
 
+## 🧩 Problem Solving Progress
+
+### LeetCode
+![LeetCode Stats](https://leetcard.jacoblin.cool/omar_username?theme=dark&ext=heatmap)
 
