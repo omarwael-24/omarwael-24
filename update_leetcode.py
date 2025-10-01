@@ -1,9 +1,7 @@
 import requests
-import json
 from datetime import datetime
 
-# غير ده لاسم المستخدم بتاعك في LeetCode
-USERNAME = "omarelmaru"
+USERNAME = "omarelmaru"  # غيره باسمك بالظبط على LeetCode
 
 query = """
 query getUserProfile($username: String!) {
@@ -19,47 +17,39 @@ query getUserProfile($username: String!) {
   }
 }
 """
-
 variables = {"username": USERNAME}
 url = "https://leetcode.com/graphql"
-response = requests.post(url, json={"query": query, "variables": variables})
+resp = requests.post(url, json={"query": query, "variables": variables})
 
-if response.status_code != 200:
-    print("❌ Failed to fetch data:", response.text)
-    exit(1)
+if resp.status_code != 200:
+    raise Exception(f"Failed: {resp.text}")
 
-data = response.json()
-user = data["data"]["matchedUser"]
+data = resp.json()["data"]["matchedUser"]["submitStats"]["acSubmissionNum"]
+easy = data[1]["count"]
+medium = data[2]["count"]
+hard = data[3]["count"]
+total = data[0]["count"]
 
-stats = user["submitStats"]["acSubmissionNum"]
-easy = stats[1]["count"]
-medium = stats[2]["count"]
-hard = stats[3]["count"]
-total = stats[0]["count"]
-
-timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
-
-# نكتب النتيجة في README.md
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
-
-marker = "<!-- LEETCODE-STATS -->"
-new_stats = f"""
+timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+stats_md = f"""
 **LeetCode Progress** 🏆  
 - Total Solved: {total}  
 - Easy: {easy}  
 - Medium: {medium}  
 - Hard: {hard}  
 
-_Last updated on {timestamp}_  
+_Last updated on {timestamp}_
 """
 
-if marker in readme:
-    before = readme.split(marker)[0]
-    after = readme.split(marker)[1]
-    readme = before + marker + "\n" + new_stats + "\n" + after
+with open("README.md", "r", encoding="utf-8") as f:
+    content = f.read()
+
+marker = "<!-- LEETCODE-STATS -->"
+if marker in content:
+    before, after = content.split(marker)
+    content = before + marker + "\n" + stats_md + "\n" + after
 else:
-    readme += f"\n{marker}\n{new_stats}\n"
+    content += f"\n{marker}\n{stats_md}\n"
 
 with open("README.md", "w", encoding="utf-8") as f:
-    f.write(readme)
+    f.write(content)
