@@ -46,5 +46,9 @@
 <p align="center">
   <img src="https://media.giphy.com/media/GghGKaZ8JeHJx0apQC/giphy.gif" width="400"/>
 </p>
+<hr style="border: 1px solid #00ff00; width: 50%;" align="center"/>
+
+![GitHub followers](https://img.shields.io/github/followers/omarelmaru?style=social)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)
 
 
