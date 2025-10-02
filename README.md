@@ -15,9 +15,7 @@
 - Actively contribute to open-source projects and communities  
 
 ☕ **Fun fact:** I literally turn coffee into models 🤖 – it fuels both me and my experiments.  
-<p align="center">
-  <img src="https://media.giphy.com/media/26u4b45b8KlgAB7iM/giphy.gif" width="400"/>
-</p>
+
 
 <h2>&nbsp;Core Tools & Technologies</h2>
 <p align="left">
@@ -44,4 +42,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/>
 </p>
 
+<p align="center">
+  <img src="assets/naruto.gif" width="400"/>
+</p>
 
