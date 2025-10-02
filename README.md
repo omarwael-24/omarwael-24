@@ -41,6 +41,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45"/>
 </p>
+<hr style="border: 1px solid #00ff00; width: 50%;" align="center"/>
 
 <p align="center">
   <img src="https://media.giphy.com/media/GghGKaZ8JeHJx0apQC/giphy.gif" width="400"/>
