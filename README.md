@@ -27,7 +27,6 @@
   <img src="https://matplotlib.org/stable/_static/logo2.svg" width="45" height="45"/>
   <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width="65" height="45"/>
   <img src="https://www.vectorlogo.zone/logos/scikit_learn/scikit_learn-icon.svg" width="45" height="45"/>
-  <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="45" height="45"/>
   <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="45" height="45"/>
   <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" height="45"/>
