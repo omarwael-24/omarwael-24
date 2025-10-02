@@ -43,6 +43,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/naruto.gif" width="400"/>
+  <img src="https://media.giphy.com/media/GghGKaZ8JeHJx0apQC/giphy.gif" width="400"/>
 </p>
+
 
