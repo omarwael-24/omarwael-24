@@ -19,22 +19,17 @@
 
 <h2>&nbsp;Core Tools & Technologies</h2>
 <p align="left">
-
-  <!-- Languages -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45"/>
-
-  <!-- Python ML Libraries -->
   <img src="https://www.vectorlogo.zone/logos/numpy/numpy-icon.svg" width="45" height="45"/>
   <img src="https://pandas.pydata.org/static/img/pandas_mark.svg" width="45" height="45"/>
   <img src="https://matplotlib.org/stable/_static/logo2.svg" width="45" height="45"/>
   <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width="65" height="45"/>
+  <img src="https://www.vectorlogo.zone/logos/scikit_learn/scikit_learn-icon.svg" width="45" height="45"/>
   <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" width="45" height="45"/>
   <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" width="45" height="45"/>
   <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" width="45" height="45"/>
-
-  <!-- Problem Solving & Tools -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="45" height="45"/>
